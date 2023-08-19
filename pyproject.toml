@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "tic-tac-tao"
+version = "0.1.0"
+description = "this is basic tic tac tao game"
+authors = ["ShanKonduru <ShanKonduru@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "tic_tac_tao"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+random11 = "^0.0.1"
+
+[tool.poetry.group.dev.dependencies]
+random2 = "^1.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
